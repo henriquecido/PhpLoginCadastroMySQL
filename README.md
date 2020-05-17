@@ -10,9 +10,9 @@ Ainda não foi adicionado a recuperação de senha.
 Não foi implementado expressões regulares nos inputs do form
 e a implementação da mudança de linguagem ao clicar nas bandeiras acima.
 
-Atenciosamente,
+Atenciosamente.
 
-Joabe Henrique.
+
 
 
 
