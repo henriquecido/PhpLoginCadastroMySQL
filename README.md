@@ -7,8 +7,8 @@ Para utilizar o login com Google/Facebook será necessário criar sua própria I
 Até o momento, 
 
 Ainda não foi adicionado a recuperação de senha.
-Não foi implementado expressões regulares nos inputs do form.
-Também a implementação da mudança de linguagem ao clicar nas bandeiras acima.
+Não foi implementado expressões regulares nos inputs do form
+e a implementação da mudança de linguagem ao clicar nas bandeiras acima.
 
 Atenciosamente,
 
