@@ -17,7 +17,7 @@ function onSignIn(googleUser) {
         $.post('php/signInGoogle.php',dados,function(resposta){
            switch(resposta){
                 case '0':
-                    document.getElementById("msg").innerHTML = "Login ou senha invalido !" ;
+                    document.getElementById("msg").innerHTML = "Invalid login or password !" ;
                     signOut();
                     onLoad();
                     break;
@@ -25,13 +25,13 @@ function onSignIn(googleUser) {
                     window.location.href = 'php/painelCentral.php';
                     break;
                 default:
-                    document.getElementById("msg").innerHTML = "Ocorreu um erro na validação do seu login !" ;
+                    document.getElementById("msg").innerHTML = "There was an error validating your login !" ;
                     signOut();
                     onLoad();
                 }
         });
     }else {
-        document.getElementById("msg").innerHTML = " Usuário não encontrado !";
+        document.getElementById("msg").innerHTML = " User not found !";
     }
 }
 function signOut() {

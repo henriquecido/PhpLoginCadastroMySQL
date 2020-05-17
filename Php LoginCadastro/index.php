@@ -41,14 +41,14 @@
                         //isset valida se () é null, se não for ele retorna true, exibindo a div abaixo
                         if(isset($_SESSION['nao_autorizado']) && $_SESSION['nao_autorizado']){
                     ?>
-                            <div class="div_logCad_invalido" > Login ou senha invalido ! </div>
+                            <div class="div_logCad_invalido" > Invalid login or password ! </div>
                     <?php
                             //unset elemina qualquer valor que esteja atribuido na função/variavel dentro de ()
                             //fazendo com que na proxima tentativa de login, ela faça novamente a analise
                             unset($_SESSION['nao_autorizado']);
                         }elseif(isset($_SESSION['nao_autorizado']) && !$_SESSION['nao_autorizado']){ 
                     ?>
-                            <div class="div_logCad_invalido" > Ocorreu um erro na validação do seu login ! </div>
+                            <div class="div_logCad_invalido" > There was an error validating your login ! </div>
                     <?php
                             unset($_SESSION['nao_autorizado']);
                         }

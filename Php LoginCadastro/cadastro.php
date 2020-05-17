@@ -44,12 +44,12 @@
                         //somente será validado esse ifelse se tambem estiver atribuido um valor na minha sessão existe_conta
                         if ($_SESSION['existe_conta'] && isset($_SESSION['existe_conta'])) {
                     ?>
-                            <div class="div_logCad_invalido"> Username já existe, tente outro! </div>
+                            <div class="div_logCad_invalido"> Username already exists, try another! </div>
                     <?php
                             unset($_SESSION['existe_conta']);
                         }elseif(!$_SESSION['existe_conta'] && isset($_SESSION['existe_conta'])){
                     ?>
-                            <div class="div_cadastro_conta"> Cadastro realizado com Sucesso! </div>
+                            <div class="div_cadastro_conta"> Successful registration! </div>
                     <?php
                             unset($_SESSION['existe_conta']);
                         }
