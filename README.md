@@ -1,4 +1,4 @@
-# PhpLoginCadastroMySQL
+# LoginCadastro com PHP/MySQL
  
 Página com Login/Cadastro de usuários, utilizando PhP para fazer a conexão com o banco MySQL.
 
