@@ -6,7 +6,7 @@
 
 Página com Login/Cadastro de usuários, utilizando PhP para fazer validação dos dados de acesso com o banco MySQL.
 
-Para utilizar o login com Google ou Facebook será necessário criar sua própria ID Client em sua plataforma, e alterar o ID Token dentro do código pelo seu, assim também como a conexão com o banco e o caminho da biblioteca composer, devem ser atualizadas.
+Para utilizar o login com Google ou Facebook será necessário criar sua própria ID Client em suas plataformas, e alterar o ID Token dentro do código pelo seu, assim também como a conexão com o banco e o caminho da biblioteca composer, devem ser atualizadas.
 
 Até o momento, 
 
