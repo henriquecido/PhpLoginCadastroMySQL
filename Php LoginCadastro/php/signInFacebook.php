@@ -2,12 +2,12 @@
    session_start();
 
    //Removendo qualquer valor dentro da session acess token, a cada nova request 
-   unset($_SESSION['facebook_access_token']);
+  unset($_SESSION['facebook_access_token']);
 
-   $conexao = mysqli_connect("localhost","root","password","testeusuario") or die("Conexão com o Banco: Falha!<br>" . mysqli_connect_error());
+    $conexao = mysqli_connect("localhost","root","password","testeusuario") or die("Conexão com o Banco: Falha!<br>" . mysqli_connect_error());
 
    //incluir apenas uma vez, once que faz essa verificação
-   require_once 'C:\Users\User\Desktop\Projeto\PHP LoginCadastro\composer\vendor\autoload.php';
+   require_once 'C:\Users\User\Desktop\Projeto\LogCad PHP e MySQL\composer\vendor\autoload.php';
    
 
    //Instanciando minha biblioteca Facebook
@@ -115,5 +115,6 @@
       $loginUrl = $helper->getLoginUrl('http://localhost/php/signInFacebook.php', $permissions);
 
   }
+
 
 ?>
