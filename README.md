@@ -1,6 +1,6 @@
 # LoginCadastro com PHP/MySQL
  
- ![GitHub Logo](/Php LoginCadastro/images/LoginCadastro PhpMySQL.png)
+ ![GitHub Logo](https://github.com/henriquecido/LoginCadastro/blob/master/Php%20LoginCadastro/images/LoginCadastro%20PhpMySQL.png)
  
 Página com Login/Cadastro de usuários, utilizando PhP para fazer a conexão com o banco MySQL.
 
