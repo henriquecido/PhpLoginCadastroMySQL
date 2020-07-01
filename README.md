@@ -1,5 +1,7 @@
 # LoginCadastro com PHP/MySQL
  
+ ![GitHub Logo](/Php LoginCadastro/images/LoginCadastro PhpMySQL.png)
+ 
 Página com Login/Cadastro de usuários, utilizando PhP para fazer a conexão com o banco MySQL.
 
 Para utilizar o login com Google/Facebook será necessário criar sua própria ID Client em suas plataformas, e adiciona-las dentro do código, assim também como a conexão com o banco, devem ser atualizadas.
