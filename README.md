@@ -1,25 +1,14 @@
-# Login & Cadastro com PHP/MySQL
- 
- ![GitHub Logo](https://github.com/henriquecido/LoginCadastro/blob/master/Php%20LoginCadastro/images/LoginCadastro%20PhpMySQL.png)
+# UserAccess with PHP/MySQL
 
-## Sobre 
+## About 
 
-Página com Login/Cadastro de usuários, utilizando PhP para fazer validação dos dados de acesso com o banco MySQL.
+User Login / Register page, using PhP to validate access data with MySQL database.
 
-Para utilizar o login com Google ou Facebook será necessário criar sua própria ID Client em suas plataformas, e alterar o ID Token dentro do código pelo seu, assim também como a conexão com o banco e o caminho da biblioteca composer, devem ser atualizadas.
+To use the login with Google or Facebook it will be necessary to create your own ID Client on your platforms, and change the ID Token within the code by yours, as well as the connection to the bank and the path of the composer library, must be updated.
 
-Até o momento, 
+Until now,
 
-Ainda não foi adicionado a recuperação de senha.
-Não foi implementado expressões regulares nos inputs do form, e a implementação da mudança de linguagem ao clicar nas bandeiras acima.
+Password recovery has not yet been added.
+Regular expressions were not implemented in the inputs of the form, and the implementation of the language change when clicking on the flags above.
 
-Design simples pois o foco foi em fazer funcionar e servir como template para aplicações futuras.
-
-A aplicação web está responsiva para mobile.
-
-Atenciosamente.
-
-
-
-
-
+Simple design because the focus was on making it work and serving as a template for future applications.
