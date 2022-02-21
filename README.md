@@ -43,7 +43,8 @@ of the composer library, must be updated.
 Until now,
 
 Password recovery has not yet been added.
-Regular expressions were not implemented in the inputs of the form, and the implementation of the language change when clicking on the flags above.
+Regular expressions were not implemented in the inputs of the form, and 
+the implementation of the language change when clicking on the flags above.
 
 Simple design because the focus was on making it work and serving 
 as a template for future applications.
